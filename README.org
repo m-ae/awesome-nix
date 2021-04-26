@@ -23,16 +23,16 @@ One page fast intro writed in Nix expression format
 Useful contents about debugging in nix ecosystem
 
 ** Repl
-Useful contents about =Repl=
+Useful contents about *Repl*
 
 *** Official wiki about Nix Repl
 Guide for start with =nix repl=
 - https://nixos.wiki/wiki/Nix_command/repl
 
 *** Repl for home-manager
-Discussion about usage of Nix =Repl= for home-manager
+Discussion about usage of Nix *Repl* for home-manager
 - https://logs.nix.samueldr.com/home-manager/2020-06-24
 
 *** Tips about Repl (internal)
-Tips about how to DEBUG pkgs, nixos, and home-manager in =Repl=
+Tips about how to DEBUG pkgs, nixos, and home-manager in *Repl*
 - [[file:DEBUG.org][Tips for debugging in Nix]]
