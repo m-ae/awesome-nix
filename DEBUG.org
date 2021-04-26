@@ -1,0 +1,29 @@
+#+TITLE: Debuging Nixos
+
+Some tips about debugging in NixOS ecossystem
+
+* Nix Repl
+Great friend for try by yourself and codding while test in runtime
+
+Justs start with =nix repl= and you are able to load and test your enviremonet.
+
+** nixos system
+#+begin_src nix repl
+nix-repl> :l  <nixpkgs/nixos> # Added 6 variables.
+nix-repl> config.services.nixops-dns.enable # true
+#+end_src
+
+** pkgs
+#+begin_src nix repl
+nix-repl> :l <nixpkgs> # Added 13932 variables.
+nix-repl> pkgs.emacs.outPath # "/nix/store/x3s1q9jv0f43sqylk98y6dkx3cw06h76-emacs-27.2"
+#+end_src
+
+** home-manager
+#+begin_src nix
+nix-repl> hm = import <home-manager/modules> {
+  configuration = ~/.config/nixpkgs/home.nix;
+  pkgs = import <nixpkgs> {};
+}
+nix-repl> hm.config.home.username # "zbioe"
+#+end_src
