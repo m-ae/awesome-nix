@@ -25,5 +25,5 @@ nix-repl> hm = import <home-manager/modules> {
   configuration = ~/.config/nixpkgs/home.nix;
   pkgs = import <nixpkgs> {};
 }
-nix-repl> hm.config.home.username # "zbioe"
+nix-repl> hm.config.home.username # "m-ae"
 #+end_src
