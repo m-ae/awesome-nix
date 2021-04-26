@@ -7,13 +7,13 @@ Useful links for bootstrap in Nix
 
 ** Nix-1p (tazjin)
 One page fast intro
-https://github.com/tazjin/nix-1p
+- https://github.com/tazjin/nix-1p
 
 ** Nix Workshop (scrive)
 Great book focus on training Haskell developers at Scrive.
 It's cover caching, derivations, overlays, imports, and many
 other interesting topics.
-https://scrive.github.io/nix-workshop/index.html
+- https://scrive.github.io/nix-workshop/index.html
 
 ** learn x in y minutes
 One page fast intro writed in Nix expression format
@@ -27,12 +27,12 @@ Useful contents about =Repl=
 
 *** Official wiki about Nix Repl
 Guide for start with =nix repl=
-https://nixos.wiki/wiki/Nix_command/repl
+- https://nixos.wiki/wiki/Nix_command/repl
 
 *** Repl for home-manager
 Discussion about usage of Nix =Repl= for home-manager
-https://logs.nix.samueldr.com/home-manager/2020-06-24
+- https://logs.nix.samueldr.com/home-manager/2020-06-24
 
 *** Tips about Repl (internal)
 Tips about how to DEBUG pkgs, nixos, and home-manager in =Repl=
-[[file:DEBUG.org][Tips for debugging in Nix]]
+- [[file:DEBUG.org][Tips for debugging in Nix]]
