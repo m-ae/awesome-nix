@@ -1,0 +1,20 @@
+#+TITLE: Awesome Nix
+
+Collection of useful links about Nix Enviroment
+
+* Bootstrap
+Useful links for bootstrap in Nix
+
+** Nix-1p (tazjin)
+One page fast intro
+https://github.com/tazjin/nix-1p
+
+** Nix Workshop (scrive)
+Great book focus on training Haskell developers at Scrive.
+It's cover caching, derivations, overlays, imports, and many
+other interesting topics.
+https://scrive.github.io/nix-workshop/index.html
+
+** learn x in y minutes
+One page fast intro writed in Nix expression format
+- https://learnxinyminutes.com/docs/nix
