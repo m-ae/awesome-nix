@@ -1,32 +1,32 @@
 #+TITLE: Awesome Nix
 
-Collection of useful contents about Nix Enviroment
+Collection of useful content about the Nix Environment
 
 * Bootstrap
-Useful links for bootstrap in Nix
+Useful links for bootstraping
 
 ** Nix-1p (tazjin)
-One page fast intro
+One-page fast intro
 - https://github.com/tazjin/nix-1p
 
 ** Nix Workshop (scrive)
-Great book focus on training Haskell developers at Scrive.
-It's cover caching, derivations, overlays, imports, and many
+Book with a focus on training Haskell developers at Scrive.
+It covers caching, derivations, overlays, imports, and many
 other interesting topics.
 - https://scrive.github.io/nix-workshop/index.html
 
 ** learn x in y minutes
-One page fast intro writed in Nix expression format
+One page fast intro written in Nix expression format
 - https://learnxinyminutes.com/docs/nix
 
 * Debugging
-Useful contents about debugging in nix ecosystem
+Useful contents about debugging in Nix ecosystem
 
 ** Repl
-Useful contents about *Repl*
+Useful content about *Repl*
 
 *** Official wiki about Nix Repl
-Guide for start with =nix repl=
+Getting started with =nix repl=
 - https://nixos.wiki/wiki/Nix_command/repl
 
 *** Repl for home-manager
@@ -36,3 +36,16 @@ Discussion about usage of Nix *Repl* for home-manager
 *** Tips about Repl (internal)
 Tips about how to DEBUG pkgs, nixos, and home-manager in *Repl*
 - [[file:DEBUG.org][Tips for debugging in Nix]]
+
+* Videos
+
+** How Shopify Uses Nix
+- https://www.youtube.com/watch?v=KaIRpx11qrc&t=120s
+
+** Playlists
+
+*** NixOS (by Wil T)
+- https://www.youtube.com/playlist?list=PL-saUBvIJzOkjAw_vOac75v-x6EzNzZq-
+
+*** Nixology
+- https://www.youtube.com/playlist?list=PLRGI9KQ3_HP_OFRG6R-p4iFgMSK1t5BHs
